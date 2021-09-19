@@ -1,0 +1,27 @@
+Store Java Project:
+
+Backend:
+
+Admin Requests Requests:
+1) POST: /addProduct                						********** DONE **********
+2) DELETE : /removeProduct (By id)  						********** DONE **********
+2) PUT : /updateProduct(By id) can update description/price/name ( id immutable). 	********** DONE **********
+3) GET: /getProduct (By Id)         						********** DONE **********
+4) GET: /getProducts (All)         							 ********** DONE **********
+
+Customer Panel:
+1) POST: /addCustomer with money amount					********** DONE **********
+1) UPDATE: /addMoney (By id) amount to add					********** DONE **********
+2) GET: /buyProduct - Example /buyProduct/<customerID>/productID			********** DONE **********
+
+*note: customer also have list of product he purchased.
+Also - need to save customer into json list.
+
+Optional items:
+1) Schedule task that every duration save the lists into Jsons
+2) 
+
+/*Display text as Json: CTRL + ALT + L*/
+
+Optional:
+Client Side
