@@ -55,6 +55,7 @@ public class StoreAdminController {
         }
     }
 
+
     @RequestMapping(value = "removeProduct", method = RequestMethod.DELETE, produces = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> removeProduct(@RequestParam("id") Long id){
         try {
@@ -68,7 +69,8 @@ public class StoreAdminController {
         }
     }
 
-    @RequestMapping(value = "updateProduct", method = RequestMethod.POST, produces = MediaType.TEXT_PLAIN_VALUE)
+
+    @RequestMapping(value = "updateProduct", method = RequestMethod.PUT, produces = MediaType.TEXT_PLAIN_VALUE)
     public ResponseEntity<String> updateProduct(@RequestParam("id") Long id,
                                                 @RequestParam("name") String productName,
                                                 @RequestParam("description") String productDescription,
